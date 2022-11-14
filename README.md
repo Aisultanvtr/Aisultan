@@ -6,7 +6,7 @@ while True:
     choice = input('Будете брать карту? y/n\n')
     if choice == 'y':
         current = koloda.pop()
-        print('Вам попалась карта достоинством %d' %current)
+        print('Вам попалась карта достоинством %d' %current)jhkghg
         count += current
         if count > 21:
             print('Извините, но вы проиграли')
